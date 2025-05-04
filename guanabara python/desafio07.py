@@ -1,3 +1,4 @@
+#Média Aritmética
 notas = []
 for _ in range(2):
     nota =float(input("Digite a nota do aluno: "))

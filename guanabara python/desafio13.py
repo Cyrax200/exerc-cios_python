@@ -1,3 +1,4 @@
+#Reajuste Salárial
 salario = float(input("Digite o valor do seu salario: "))
 porcentagem = salario * (15/100)
 total = salario + porcentagem

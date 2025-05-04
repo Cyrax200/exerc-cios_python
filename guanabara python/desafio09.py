@@ -1,3 +1,4 @@
+#Tabuada
 while True:
     num = int(input("Digite um numero para saber a Tabuada: "))
     for tab in range(1,11):

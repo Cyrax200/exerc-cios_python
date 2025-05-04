@@ -1,3 +1,4 @@
+#Calculando Desconto
 produto = float(input("Digite o valor do produto: "))
 desconto =  produto * (5 / 100)
 valor_total = produto - desconto
