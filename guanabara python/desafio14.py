@@ -1,4 +1,3 @@
-
 #Conversor de Temperaturas
 temperatura = float(input("Digite uma temperatura em °C: "))
 f = (temperatura * 1.8) + 32
