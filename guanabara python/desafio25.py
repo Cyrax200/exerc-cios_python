@@ -1,3 +1,4 @@
+#Encontrar o nome SILVA no nome completo que o usuario digitar
 nome = str(input("Digite seu nome completo: "))
 nome = nome.lower()
 palavra = "SILVA"
