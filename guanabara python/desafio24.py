@@ -1,13 +1,6 @@
-#Informar se a palavra SANTOS esta na cidade digitada
-cidade = input("Digite o nome de uma cidade: ")
-cidade = cidade.lower()
-palavra = "SANTOS"
-palavra = palavra.lower()
-
-if palavra in cidade:
-    print("A palavra Santos esta na cidade digitada ")
-else:
-    print("A palavra Santos não se encontra na cidade digitada ")
+#Informar se a cidade começa com a palavra Santo
+cidade = str(input("Digite o nome de uma cidade: ")).strip().upper()
+print(cidade[:5].upper() == 'SANTO')
 
 
 
